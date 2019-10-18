@@ -1,0 +1,80 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+/* Basic */
+
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+/* Container */
+
+		@media screen and (min-width: 961px) and (max-width: 1880px) {
+			.container {
+				width: 1200px;
+			}
+
+		}
+
+		@media screen and (min-width: 961px) and (max-width: 1620px) {
+			.container {
+				width: 960px;
+			}
+
+		}
+
+		@media screen and (min-width: 961px) and (max-width: 1320px) {
+			.container {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 960px) {
+			.container {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+			.container {
+				width: 100%;
+			}
+
+		}
+
+/* Row */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+  }
+		.row > * {
+			box-sizing: border-box;
+		}
+
+/* Icons */
+
+	.icon {
+		text-decoration: none;
+  }
+  
+		.icon > .label {
+			display: none;
+		}
+
+/* Narrower */
+
+	@media screen and (max-width: 960px) {
+
+		#header {
+			display: block !important;
+		}
+
+	}
