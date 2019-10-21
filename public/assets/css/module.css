@@ -37,11 +37,6 @@
 		letter-spacing: -1px;
 	}
 
-		header > h2.alt {
-      color:rebeccapurple;
-      
-		}
-
 			h2.alt strong {
 				color: #666;
 			}
@@ -183,11 +178,6 @@
 					#main > section.dark a:hover {
 						border-bottom-color: rgba(255, 255, 255, 0);
 					}
-
-			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/acadia.jpg");
-			}
 
 			#main > section.two {
 				background-color: #f5fafa;
