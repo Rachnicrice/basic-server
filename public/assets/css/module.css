@@ -221,7 +221,8 @@
 
 			body, input, textarea, select {
 				font-size: 16pt;
-      }
+			}
+			
     }
 
 /* Mobile */
@@ -240,4 +241,4 @@
 				font-weight: 300;
 			}
 
-  }
+	}
